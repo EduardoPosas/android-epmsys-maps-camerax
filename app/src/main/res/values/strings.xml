@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">epmsys</string>
+    <string name="locations">Locations</string>
+    <string name="new_point">New Point</string>
+    <string name="category">Category</string>
+    <string name="action">Action</string>
+    <string name="camera">Camera</string>
+</resources>
