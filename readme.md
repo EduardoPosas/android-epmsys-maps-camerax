@@ -38,7 +38,7 @@ Estan encargados de elevar el estado y proveer a los composables del estado que 
 ### Capa de dominio y datos
 En la capa de domino se implementan las interfaces o contratos que definen la estructura de los casos de uso, repositorios y modelos que serán utilizados por la capa de datos para interactura con la base de datos, con los proveedores de la ubicación o con la funcionalidad de la camara.
 
-<img alt="data_architecture.png" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fdata_architecture.png" width="250"/>
+<img alt="data_architecture.png" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fdata_architecture.png" width="500"/>
 
 ### Inyección de dependencias
 Se implementa la librería Hilt para proveer a la aplicación las diferentes dependencias que se requieren para implementar las funcionalidades. Por ejemplo, la dependencia para acceder a la ubicación actual del dispositivo (`FusedLocationProviderClient`) o la dependencia para implementar el caso de uso para tomar y guardar una imágen (`ImageCapure`)
@@ -46,30 +46,39 @@ Se implementa la librería Hilt para proveer a la aplicación las diferentes dep
 ## Flujo de la aplicación
 
 - Pantalla de inicio de la aplicación.
+
   <img alt="one_map_initial_screen_min.jpg" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fone_map_initial_screen_min.jpg" width="250"/>
 
 - Solicitar permisos para la acceder a la ubicación del dispositivo.
+
   <img alt="two_request_location_permission_min.jpg" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Ftwo_request_location_permission_min.jpg" width="250"/>
 
 - Pantalla de inicio, con los permisos garantizados.
+
   <img alt="three_map_location_granted_min.jpg" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fthree_map_location_granted_min.jpg" width="250"/>
 
 - Pantalla del formulario para crear nuevo registro.
+
   <img alt="four_new_register_initial_form_min.jpg" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Ffour_new_register_initial_form_min.jpg" width="250"/>
 
 - Validación de los datos.
+
   <img alt="five_new_register_validation_min.jpg" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Ffive_new_register_validation_min.jpg" width="250"/>
 
 - Solicitud de permisos para acceder a la cámara del dispositivo.
+
   <img alt="six_request_camera_permission_min.jpg" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fsix_request_camera_permission_min.jpg" width="250"/>
 
 - Vista previa de la cámara
+
   <img alt="seven_camera_preview_min.jpg" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fseven_camera_preview_min.jpg" width="250"/>
 
 - Pantalla de nuevo registro completada.
+
   <img alt="eight_new_register_fullfilled_min.jpg" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Feight_new_register_fullfilled_min.jpg" width="250"/>
 
 - Pantalla del mapa con los registros creados.
+
   <img alt="nine_map_view_with_markers_min.jpg" src="app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fnine_map_view_with_markers_min.jpg" width="250"/>
 
 
